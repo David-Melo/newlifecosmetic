@@ -1,0 +1,246 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\dmelo\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'bower' ]
+2 info using npm@2.6.0
+3 info using node@v6.9.2
+4 silly cache add args [ 'bower', null ]
+5 verbose cache add spec bower
+6 silly cache add parsed spec Result {
+6 silly cache add   raw: 'bower',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'bower',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed bower@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'bower', range: '*', hasData: false }
+11 silly mapToRegistry name bower
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/bower
+15 verbose addNameRange registry:https://registry.npmjs.org/bower not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/bower
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 12:07:50 AM
+19 verbose request id ca39bf2c86e77c95
+20 verbose etag "3BIE26BVHCA7KD33EYAJ4WOSH"
+21 http request GET https://registry.npmjs.org/bower
+22 http 200 https://registry.npmjs.org/bower
+23 silly get cb [ 200,
+23 silly get   { server: 'nginx/1.10.1',
+23 silly get     'content-type': 'application/json',
+23 silly get     'last-modified': 'Sat, 10 Dec 2016 17:14:12 GMT',
+23 silly get     etag: 'W/"584c37e4-2ac34"',
+23 silly get     'content-encoding': 'gzip',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'content-length': '16311',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Sun, 11 Dec 2016 05:08:18 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '32',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-atl6223-ATL',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1481432898.591328,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose get saving bower to C:\Users\dmelo\AppData\Roaming\npm-cache\registry.npmjs.org\bower\.cache.json
+25 silly addNameRange number 2 { name: 'bower', range: '*', hasData: true }
+26 silly addNameRange versions [ 'bower',
+26 silly addNameRange   [ '0.1.0',
+26 silly addNameRange     '0.1.2',
+26 silly addNameRange     '0.1.3',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.3.2',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.5.1',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.6.1',
+26 silly addNameRange     '0.6.2',
+26 silly addNameRange     '0.6.3',
+26 silly addNameRange     '0.6.4',
+26 silly addNameRange     '0.6.5',
+26 silly addNameRange     '0.6.6',
+26 silly addNameRange     '0.6.7',
+26 silly addNameRange     '0.6.8',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '0.7.1',
+26 silly addNameRange     '0.8.0',
+26 silly addNameRange     '0.8.1',
+26 silly addNameRange     '0.8.2',
+26 silly addNameRange     '0.8.3',
+26 silly addNameRange     '0.8.4',
+26 silly addNameRange     '0.8.5',
+26 silly addNameRange     '0.8.6',
+26 silly addNameRange     '0.9.0',
+26 silly addNameRange     '0.9.1',
+26 silly addNameRange     '0.9.2',
+26 silly addNameRange     '0.10.0',
+26 silly addNameRange     '1.0.0',
+26 silly addNameRange     '1.0.1',
+26 silly addNameRange     '1.0.2',
+26 silly addNameRange     '1.0.3',
+26 silly addNameRange     '1.1.0',
+26 silly addNameRange     '1.1.1',
+26 silly addNameRange     '1.1.2',
+26 silly addNameRange     '1.2.0',
+26 silly addNameRange     '1.2.1',
+26 silly addNameRange     '1.2.2',
+26 silly addNameRange     '1.2.3',
+26 silly addNameRange     '1.2.4',
+26 silly addNameRange     '1.2.5',
+26 silly addNameRange     '1.2.6',
+26 silly addNameRange     '1.2.7',
+26 silly addNameRange     '1.2.8',
+26 silly addNameRange     '1.3.0',
+26 silly addNameRange     '1.3.1',
+26 silly addNameRange     '1.3.2',
+26 silly addNameRange     '1.3.3',
+26 silly addNameRange     '1.3.4',
+26 silly addNameRange     '1.3.5',
+26 silly addNameRange     '1.3.6',
+26 silly addNameRange     '1.3.7',
+26 silly addNameRange     '1.3.8',
+26 silly addNameRange     '1.3.9',
+26 silly addNameRange     '1.3.10',
+26 silly addNameRange     '1.3.11',
+26 silly addNameRange     '1.3.12',
+26 silly addNameRange     '1.4.0',
+26 silly addNameRange     '1.4.1',
+26 silly addNameRange     '1.5.0',
+26 silly addNameRange     '1.5.1',
+26 silly addNameRange     '1.5.2',
+26 silly addNameRange     '1.5.3',
+26 silly addNameRange     '1.6.2',
+26 silly addNameRange     '1.6.3',
+26 silly addNameRange     '1.6.4',
+26 silly addNameRange     '1.6.5',
+26 silly addNameRange     '1.5.4',
+26 silly addNameRange     '1.4.2',
+26 silly addNameRange     '1.6.6',
+26 silly addNameRange     '1.6.7',
+26 silly addNameRange     '1.6.8',
+26 silly addNameRange     '1.6.9',
+26 silly addNameRange     '1.7.0',
+26 silly addNameRange     '1.7.1',
+26 silly addNameRange     '1.7.2',
+26 silly addNameRange     '1.7.5',
+26 silly addNameRange     '1.7.6',
+26 silly addNameRange     '1.7.7',
+26 silly addNameRange     '1.7.8',
+26 silly addNameRange     '1.7.9',
+26 silly addNameRange     '1.8.0' ] ]
+27 verbose addNamed bower@1.8.0
+28 silly addNamed semver.valid 1.8.0
+29 silly addNamed semver.validRange 1.8.0
+30 silly mapToRegistry name bower
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/bower
+34 verbose addRemoteTarball https://registry.npmjs.org/bower/-/bower-1.8.0.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-1.8.0.tgz',
+35 verbose addRemoteTarball   '55dbebef0ad9155382d9e9d3e497c1372345b44a' ]
+36 info retry fetch attempt 1 at 12:07:50 AM
+37 info attempt registry request try #1 at 12:07:50 AM
+38 http fetch GET https://registry.npmjs.org/bower/-/bower-1.8.0.tgz
+39 http fetch 200 https://registry.npmjs.org/bower/-/bower-1.8.0.tgz
+40 silly fetchAndShaCheck shasum 55dbebef0ad9155382d9e9d3e497c1372345b44a
+41 verbose addTmpTarball C:\Users\dmelo\AppData\Local\Temp\npm-7712-51f03359\registry.npmjs.org\bower\-\bower-1.8.0.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for bower@1.8.0
+43 silly cache afterAdd bower@1.8.0
+44 verbose afterAdd C:\Users\dmelo\AppData\Roaming\npm-cache\bower\1.8.0\package\package.json not in flight; writing
+45 verbose afterAdd C:\Users\dmelo\AppData\Roaming\npm-cache\bower\1.8.0\package\package.json written
+46 silly install resolved [ { name: 'bower',
+46 silly install resolved     version: '1.8.0',
+46 silly install resolved     description: 'The browser package manager',
+46 silly install resolved     author: { name: 'Twitter' },
+46 silly install resolved     license: 'MIT',
+46 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/bower/bower.git' },
+46 silly install resolved     main: 'lib',
+46 silly install resolved     bin: { bower: 'bin/bower' },
+46 silly install resolved     homepage: 'http://bower.io',
+46 silly install resolved     engines: { node: '>=0.10.0' },
+46 silly install resolved     keywords: [ 'bower' ],
+46 silly install resolved     files: [ 'bin', 'lib' ],
+46 silly install resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+46 silly install resolved     _id: 'bower@1.8.0',
+46 silly install resolved     scripts: {},
+46 silly install resolved     _shasum: '55dbebef0ad9155382d9e9d3e497c1372345b44a',
+46 silly install resolved     _from: 'bower@*',
+46 silly install resolved     _npmVersion: '3.10.9',
+46 silly install resolved     _nodeVersion: '4.4.6',
+46 silly install resolved     _npmUser: { name: 'sheerun', email: 'sheerun@sher.pl' },
+46 silly install resolved     dist:
+46 silly install resolved      { shasum: '55dbebef0ad9155382d9e9d3e497c1372345b44a',
+46 silly install resolved        tarball: 'https://registry.npmjs.org/bower/-/bower-1.8.0.tgz' },
+46 silly install resolved     maintainers:
+46 silly install resolved      [ [Object],
+46 silly install resolved        [Object],
+46 silly install resolved        [Object],
+46 silly install resolved        [Object],
+46 silly install resolved        [Object],
+46 silly install resolved        [Object],
+46 silly install resolved        [Object] ],
+46 silly install resolved     _npmOperationalInternal:
+46 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+46 silly install resolved        tmp: 'tmp/bower-1.8.0.tgz_1478512918020_0.7136248126626015' },
+46 silly install resolved     directories: {},
+46 silly install resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.8.0.tgz' } ]
+47 info install bower@1.8.0 into C:\Program Files\nodejs
+48 info installOne bower@1.8.0
+49 verbose installOne of bower to C:\Program Files\nodejs not in flight; installing
+50 verbose lock using C:\Users\dmelo\AppData\Roaming\npm-cache\_locks\bower-c09afa036a5c141c.lock for C:\Program Files\nodejs\node_modules\bower
+51 silly install write writing bower 1.8.0 to C:\Program Files\nodejs\node_modules\bower
+52 silly cache addNamed cb bower@1.8.0
+53 verbose unbuild node_modules\bower
+54 verbose gentlyRm vacuuming C:\Program Files\nodejs\node_modules\bower
+55 verbose tar unpack C:\Users\dmelo\AppData\Roaming\npm-cache\bower\1.8.0\package.tgz
+56 verbose tar unpacking to C:\Program Files\nodejs\node_modules\bower
+57 verbose gentlyRm vacuuming C:\Program Files\nodejs\node_modules\bower
+58 silly gunzTarPerm modes [ '777', '666' ]
+59 error tar.unpack untar error C:\Users\dmelo\AppData\Roaming\npm-cache\bower\1.8.0\package.tgz
+60 verbose unlock done using C:\Users\dmelo\AppData\Roaming\npm-cache\_locks\bower-c09afa036a5c141c.lock for C:\Program Files\nodejs\node_modules\bower
+61 verbose fstream_path C:\Program Files\nodejs\node_modules\bower
+62 verbose fstream_type Directory
+63 verbose fstream_class DirWriter
+64 verbose stack Error: EPERM: operation not permitted, mkdir 'C:\Program Files\nodejs\node_modules\bower'
+64 verbose stack     at Error (native)
+65 verbose fstream_stack C:\Users\dmelo\AppData\Roaming\npm\node_modules\npm\node_modules\fstream\lib\dir-writer.js:36:23
+65 verbose fstream_stack C:\Users\dmelo\AppData\Roaming\npm\node_modules\npm\node_modules\mkdirp\index.js:46:53
+65 verbose fstream_stack FSReqWrap.oncomplete (fs.js:123:15)
+66 verbose cwd C:\dev\newlifecosmetic\newlifecosmetic
+67 error Windows_NT 10.0.14393
+68 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\dmelo\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "bower"
+69 error node v6.9.2
+70 error npm  v2.6.0
+71 error path C:\Program Files\nodejs\node_modules\bower
+72 error code EPERM
+73 error errno -4048
+74 error syscall mkdir
+75 error Error: EPERM: operation not permitted, mkdir 'C:\Program Files\nodejs\node_modules\bower'
+75 error     at Error (native)
+75 error  { Error: EPERM: operation not permitted, mkdir 'C:\Program Files\nodejs\node_modules\bower'
+75 error     at Error (native)
+75 error   errno: -4048,
+75 error   code: 'EPERM',
+75 error   syscall: 'mkdir',
+75 error   path: 'C:\\Program Files\\nodejs\\node_modules\\bower',
+75 error   fstream_type: 'Directory',
+75 error   fstream_path: 'C:\\Program Files\\nodejs\\node_modules\\bower',
+75 error   fstream_class: 'DirWriter',
+75 error   fstream_stack:
+75 error    [ 'C:\\Users\\dmelo\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\fstream\\lib\\dir-writer.js:36:23',
+75 error      'C:\\Users\\dmelo\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\mkdirp\\index.js:46:53',
+75 error      'FSReqWrap.oncomplete (fs.js:123:15)' ] }
+76 error Please try running this command again as root/Administrator.
+77 verbose exit [ -4048, true ]
+78 verbose unbuild node_modules\bower
+79 verbose gentlyRm vacuuming C:\Program Files\nodejs\node_modules\bower
