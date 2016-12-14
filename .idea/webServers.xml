@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bf9952f1-76ae-470f-90c1-c87efa7464d4" name="newlifecosmetic" url="http://newlifecosmetic.bitnamiapp.com">
+        <fileTransfer host="newlifecosmetic.bitnamiapp.com" port="22" privateKey="C:\Users\dmelo\Downloads\bitnami" rootFolder="/opt/bitnami/apps/wordpress/htdocs/wp-content/themes" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
