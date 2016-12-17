@@ -1,0 +1,89 @@
+#wrapper-footer-full, #wrapper-static-hero{
+  background-color: $gray;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $brand-primary;
+  text-transform: uppercase;
+}
+
+.hero-wrapper {
+  height: 450px;
+  position: relative;
+}
+
+.hero-image {
+  height: 450px;
+  background-image: linear-gradient(-90deg,#00616E,#00ABBF,#00616E);
+  position: relative;
+}
+
+.hero-image-bg {
+  position: relative;
+  height: 450px;
+}
+
+.hero-foreground {
+  background: url('http://newlifecosmetic.bitnamiapp.com/wp-content/themes/understrap/images/hero-foreground.png') center no-repeat;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  left: -500px;
+  right: 0;
+  bottom: 0;
+}
+
+.hero-foreground-bg {
+  background: url('https://www.transparenttextures.com/patterns/3px-tile.png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.hero-wrapper h1 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 40px;
+}
+
+.hero-wrapper h2 {
+  color: $gray-dark;
+  font-weight: 100;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.hero-wrapper h3 {
+  color: #ffc74f;
+  font-weight: 100;
+  font-size: 23px;
+  margin-bottom: 23px;
+}
+
+.dropdown-menu a {
+  white-space: nowrap !important;
+}
+
+header {
+  padding: 20px 0;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.header-call-to-action {
+  text-transform: uppercase;
+  line-height: 60px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.header-call-to-action a {
+  color: $brand-alternate;
+  text-decoration: underline;
+}

@@ -15,3 +15,11 @@ function theme_enqueue_styles() {
     wp_enqueue_style( 'child-understrap-styles', get_stylesheet_directory_uri() . '/css/child-theme.min.css', array());
     wp_enqueue_script( 'child-understrap-scripts', get_stylesheet_directory_uri() . '/js/child-theme.min.js', array(), '0.1.0', true );
 }
+
+function dm_theme_setup(){
+
+    register_nav_menu('alt','Alt Navigation');
+    register_nav_menu('footer','Footer Navigation');
+
+}
+add_action('init', 'dm_theme_setup');

@@ -23,30 +23,28 @@ if ( is_front_page() && is_home() ) {
 }
 ?>
 
-
-
 <div class="wrapper" id="wrapper-home">
 
-	<div class="<?php echo esc_html( $container ); ?>" id="content" tabindex="-1">
+    <div class="<?php echo esc_html( $container ); ?>" id="content" tabindex="-1">
 
-		<div class="row">
+        <div class="row">
 
-			<!-- Do the left sidebar check -->
-			<?php get_template_part( 'global-templates/left-sidebar-check', 'none' ); ?>
+            <!-- Do the left sidebar check -->
+            <?php get_template_part( 'global-templates/left-sidebar-check', 'none' ); ?>
 
-			<?php if ( 'masonry' === $posts_style ) : ?>
+            <?php if ( 'masonry' === $posts_style ) : ?>
 
-			<div class="card-columns"><?php endif; ?>
-			
-				<main class="site-main" id="main">
+            <div class="card-columns"><?php endif; ?>
 
-					<?php if ( have_posts() ) : ?>
+                <main class="site-main" id="main">
 
-						<?php /* Start the Loop */ ?>
+                    <?php if ( have_posts() ) : ?>
 
-						<?php while ( have_posts() ) : the_post(); ?>
+                    <?php /* Start the Loop */ ?>
 
-							<?php
+                    <?php while ( have_posts() ) : the_post(); ?>
+
+                    <?php
 							if ( 'masonry' === $posts_style ) :
 								get_template_part( 'loop-templates/content', 'card' );
 							elseif ( 'grid' === $posts_style ) :
@@ -62,33 +60,28 @@ if ( is_front_page() && is_home() ) {
 							endif;
 							?>
 
-						<?php endwhile; ?>
+                    <?php endwhile; ?>
 
-						<?php the_posts_navigation(); ?>
+                    <?php else : ?>
 
-					<?php else : ?>
+                    <?php get_template_part( 'loop-templates/content', 'none' ); ?>
 
-						<?php get_template_part( 'loop-templates/content', 'none' ); ?>
+                    <?php endif; ?>
+                    <?php if ( 'masonry' === $posts_style ) : ?></div><?php endif; ?>
+            </main><!-- #main -->
 
-					<?php endif; ?>
-				<?php if ( 'masonry' === $posts_style ) : ?></div><?php endif; ?>
-			</main><!-- #main -->
+            <?php understrap_pagination(); ?>
 
-			<?php understrap_pagination(); ?>
+        </div><!-- #primary -->
 
-		</div><!-- #primary -->
+        <!-- Do the right sidebar check -->
+        <?php if ( 'right' === $sidebar_pos || 'both' === $sidebar_pos ) : ?>
 
-		<!-- Do the right sidebar check -->
-		<?php if ( 'right' === $sidebar_pos || 'both' === $sidebar_pos ) : ?>
+        <?php get_sidebar( 'right' ); ?>
 
-			<?php get_sidebar( 'right' ); ?>
+        <?php endif; ?>
 
-		<?php endif; ?>
-
-	</div><!-- .row -->
-
-<h3>APPOINTMENTS</h3>
-<p>APPOINTMENTS</p>
+    </div><!-- .row -->
 
 </div><!-- Container end -->
 

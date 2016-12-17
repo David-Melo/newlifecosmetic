@@ -1,10 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3e08743-ee64-4362-8fa0-86b663e6179c" name="Default" comment="" />
+    <list default="true" id="e3e08743-ee64-4362-8fa0-86b663e6179c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/understrap/page-home.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newlifecosmetic/npm-debug.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/css/child-theme.css" afterPath="$PROJECT_DIR$/newlifecosmetic/css/child-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/css/child-theme.min.css" afterPath="$PROJECT_DIR$/newlifecosmetic/css/child-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/newlifecosmetic/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/functions.php" afterPath="$PROJECT_DIR$/newlifecosmetic/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/sass/child-theme.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/sass/child-theme.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme_variables.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/css/owl.carousel.css" afterPath="$PROJECT_DIR$/newlifecosmetic/src/css/owl.carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/css/owl.carousel.min.css" afterPath="$PROJECT_DIR$/newlifecosmetic/src/css/owl.carousel.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/css/owl.theme.default.css" afterPath="$PROJECT_DIR$/newlifecosmetic/src/css/owl.theme.default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/css/owl.theme.default.min.css" afterPath="$PROJECT_DIR$/newlifecosmetic/src/css/owl.theme.default.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/css/owl.theme.green.css" afterPath="$PROJECT_DIR$/newlifecosmetic/src/css/owl.theme.green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/css/owl.theme.green.min.css" afterPath="$PROJECT_DIR$/newlifecosmetic/src/css/owl.theme.green.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/css/tether-theme-arrows-dark.css" afterPath="$PROJECT_DIR$/newlifecosmetic/src/css/tether-theme-arrows-dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/css/tether-theme-arrows.css" afterPath="$PROJECT_DIR$/newlifecosmetic/src/css/tether-theme-arrows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/css/tether-theme-basic.css" afterPath="$PROJECT_DIR$/newlifecosmetic/src/css/tether-theme-basic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/css/tether.css" afterPath="$PROJECT_DIR$/newlifecosmetic/src/css/tether.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/js/bootstrap4/bootstrap.js" afterPath="$PROJECT_DIR$/newlifecosmetic/src/js/bootstrap4/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/js/bootstrap4/bootstrap.min.js" afterPath="$PROJECT_DIR$/newlifecosmetic/src/js/bootstrap4/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/js/core.js" afterPath="$PROJECT_DIR$/newlifecosmetic/src/js/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/js/jquery.js" afterPath="$PROJECT_DIR$/newlifecosmetic/src/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/js/jquery.min.js" afterPath="$PROJECT_DIR$/newlifecosmetic/src/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/js/jquery.slim.js" afterPath="$PROJECT_DIR$/newlifecosmetic/src/js/jquery.slim.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/js/jquery.slim.min.js" afterPath="$PROJECT_DIR$/newlifecosmetic/src/js/jquery.slim.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/js/owl.carousel.js" afterPath="$PROJECT_DIR$/newlifecosmetic/src/js/owl.carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/newlifecosmetic/src/js/owl.carousel.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/js/tether.js" afterPath="$PROJECT_DIR$/newlifecosmetic/src/js/tether.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/js/tether.min.js" afterPath="$PROJECT_DIR$/newlifecosmetic/src/js/tether.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_alert.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_alert.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_animation.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_animation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_breadcrumb.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_breadcrumb.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_button-group.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_button-group.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_buttons.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_card.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_card.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_carousel.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_carousel.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_close.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_close.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_code.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_code.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_custom-forms.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_custom-forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_custom.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_custom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_dropdown.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_dropdown.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_forms.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_grid.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_images.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_images.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_input-group.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_input-group.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_jumbotron.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_jumbotron.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_list-group.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_list-group.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_media.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_media.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_mixins.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_modal.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_modal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_nav.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_nav.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_navbar.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_navbar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_normalize.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_normalize.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_pagination.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_pagination.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_popover.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_popover.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_print.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_print.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_progress.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_progress.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_reboot.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_reboot.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_responsive-embed.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_responsive-embed.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_tables.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_tables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_tags.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_tags.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_tooltip.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_tooltip.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_type.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_type.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_utilities.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_utilities.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_variables.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/bootstrap-flex.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/bootstrap-flex.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/bootstrap-grid.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/bootstrap-grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/bootstrap-reboot.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/bootstrap-reboot.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/bootstrap.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/bootstrap.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_alert.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_alert.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_background-variant.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_background-variant.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_border-radius.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_border-radius.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_breakpoints.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_breakpoints.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_cards.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_cards.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_clearfix.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_clearfix.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_float.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_float.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_forms.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_gradients.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_gradients.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_grid-framework.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_grid-framework.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_grid.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_hover.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_hover.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_image.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_image.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_list-group.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_list-group.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_lists.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_lists.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_nav-divider.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_nav-divider.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_navbar-align.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_navbar-align.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_pagination.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_pagination.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_progress.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_progress.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_reset-filter.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_reset-filter.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_reset-text.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_reset-text.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_resize.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_resize.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_screen-reader.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_screen-reader.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_size.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_size.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_tab-focus.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_tab-focus.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_table-row.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_table-row.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_tag.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_tag.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_text-emphasis.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_text-emphasis.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_text-hide.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_text-hide.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_text-truncate.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/mixins/_text-truncate.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_align.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_align.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_background.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_background.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_borders.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_borders.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_clearfix.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_clearfix.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_display.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_display.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_flex.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_flex.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_float.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_float.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_screenreaders.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_screenreaders.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_spacing.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_spacing.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_text.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_text.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_visibility.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/utilities/_visibility.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_animated.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_animated.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_core.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_fixed-width.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_icons.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_larger.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_list.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_mixins.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_path.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_screen-reader.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_screen-reader.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_stacked.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_variables.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/font-awesome.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/fontawesome/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_animate.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_animate.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_autoheight.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_autoheight.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_core.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_lazyload.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_lazyload.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_theme.default.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_theme.default.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_theme.green.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_theme.green.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_theme.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_theme.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_video.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/_video.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/owl.carousel.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/owl-carousel2/owl.carousel.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/assets/bootstrap3.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/assets/bootstrap3.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/assets/bootstrap4.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/assets/bootstrap4.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/assets/font-awesome.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/assets/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/assets/owl-carousel2.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/assets/owl-carousel2.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/theme.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/theme.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/theme/_theme.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/theme/_theme.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/theme/_theme_variables.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/theme/_theme_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/understrap/understrap.scss" afterPath="$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/understrap/understrap.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/understrap/header.php" afterPath="$PROJECT_DIR$/understrap/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/understrap/home.php" afterPath="$PROJECT_DIR$/understrap/home.php" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="bitnami" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +172,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/understrap/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="80" column="27" lean-forward="false" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+            <state relative-caret-position="183">
+              <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newlifecosmetic/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/understrap/page-home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -35,13 +206,71 @@
         <entry file="file://$PROJECT_DIR$/understrap/home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1602">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <caret line="89" column="22" lean-forward="false" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="child-theme.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newlifecosmetic/css/child-theme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_child_theme_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="understrap.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/understrap/understrap.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_child_theme.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-wp-navwalker.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/understrap/inc/bootstrap-wp-navwalker.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="98" column="43" lean-forward="false" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>font-fa</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,8 +283,16 @@
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/understrap/functions.php" />
+        <option value="$PROJECT_DIR$/newlifecosmetic/css/child-theme.min.css" />
+        <option value="$PROJECT_DIR$/newlifecosmetic/header.php" />
+        <option value="$PROJECT_DIR$/newlifecosmetic/sass/child-theme.scss" />
         <option value="$PROJECT_DIR$/understrap/home.php" />
+        <option value="$PROJECT_DIR$/newlifecosmetic/functions.php" />
+        <option value="$PROJECT_DIR$/understrap/inc/bootstrap-wp-navwalker.php" />
+        <option value="$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme_variables.scss" />
         <option value="$PROJECT_DIR$/understrap/header.php" />
+        <option value="$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme.scss" />
+        <option value="$PROJECT_DIR$/understrap/page-home.php" />
       </list>
     </option>
   </component>
@@ -65,11 +302,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/newlifecosmetic/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="886" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -86,6 +326,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -123,13 +364,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="understrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newlifecosmetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newlifecosmetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="newlifecosmetic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newlifecosmetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newlifecosmetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newlifecosmetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newlifecosmetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newlifecosmetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newlifecosmetic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="child-theme.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,9 +439,15 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/understrap/sass" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\newlifecosmetic\understrap" />
+      <recent name="C:\dev\newlifecosmetic\newlifecosmetic\images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -225,35 +529,66 @@
       <workItem from="1481512876952" duration="1465000" />
       <workItem from="1481523299661" duration="1032000" />
       <workItem from="1481675467650" duration="135000" />
+      <workItem from="1481676464933" duration="9992000" />
+      <workItem from="1481927117047" duration="753000" />
+      <workItem from="1481942173363" duration="9944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12516000" />
+    <option name="totallyTimeSpent" value="33205000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14781491" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17287917" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1924307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17803837" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7224436" sideWeight="0.5093809" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.48879552" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10825295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11155379" sideWeight="0.49061912" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22400858" sideWeight="0.49061912" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.48879552" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2455216" sideWeight="0.5042644" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2455216" sideWeight="0.5042644" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="V8 CPU Profiling" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.49258342" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7224436" sideWeight="0.5093809" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.48879552" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10825295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2455216" sideWeight="0.5042644" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22400858" sideWeight="0.49061912" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1924307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17803837" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2455216" sideWeight="0.5042644" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="V8 CPU Profiling" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.49258342" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -268,13 +603,109 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/understrap/header.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="81" column="10" lean-forward="false" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understrap/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="10" lean-forward="false" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/understrap/understrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/understrap/home.php">
+    <entry file="file://$PROJECT_DIR$/understrap/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="81" column="10" lean-forward="false" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understrap/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="10" lean-forward="false" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/understrap/understrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understrap/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understrap/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understrap/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understrap/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1602">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
@@ -320,13 +751,6 @@
     <entry file="file://$PROJECT_DIR$/inc/bootstrap-wp-navwalker.php" />
     <entry file="file://$PROJECT_DIR$/functions.php" />
     <entry file="file://$PROJECT_DIR$/inc/setup.php" />
-    <entry file="file://$PROJECT_DIR$/newlifecosmetic/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/7zE3CD.tmp/header.php" />
     <entry file="file://$PROJECT_DIR$/understrap/functions.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -335,18 +759,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/sass/assets/bootstrap3.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/src/sass/bootstrap4/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understrap/sass/understrap/understrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/theme/_theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/theme/_theme_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/css/child-theme.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/header.php" />
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/src/sass/understrap/understrap/understrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/sass/child-theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/css/child-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/understrap/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1602">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <caret line="89" column="22" lean-forward="false" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understrap/inc/bootstrap-wp-navwalker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="98" column="43" lean-forward="false" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/understrap/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="80" column="27" lean-forward="false" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+        <state relative-caret-position="183">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlifecosmetic/sass/theme/_child_theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understrap/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
           <folding />
         </state>
       </provider>

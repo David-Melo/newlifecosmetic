@@ -2,20 +2,6 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="Always" serverName="newlifecosmetic">
     <serverData>
-      <paths name="CRP">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Soldi.New">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="newlifecosmetic">
         <serverdata>
           <mappings>
@@ -23,8 +9,14 @@
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
-            <excludedPath path="/languages" />
-            <excludedPath path="/woocommerce" />
+            <excludedPath local="true" path="$PROJECT_DIR$/newlifecosmetic/node_modules" />
+            <excludedPath local="true" path="$PROJECT_DIR$/newlifecosmetic/sass" />
+            <excludedPath local="true" path="$PROJECT_DIR$/newlifecosmetic/src" />
+            <excludedPath path="/twentyfifteen" />
+            <excludedPath path="/twentysixteen" />
+            <excludedPath path="/twentyfourteen" />
+            <excludedPath path="/twentyseventeen" />
+            <excludedPath local="true" path="$PROJECT_DIR$/understrap/sass" />
           </excludedPaths>
         </serverdata>
       </paths>

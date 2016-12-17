@@ -21,6 +21,11 @@
       content="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <style>
+        .hero-foreground {
+            background: url('<?=get_template_directory_uri();?>/images/hero-foreground.png');
+        }
+    </style>
 <?php wp_head(); ?>
 </head>
 
@@ -28,55 +33,77 @@
 
 <div class="hfeed site" id="page">
 
-
-
-
-
-    <nav class="navbar navbar-dark bg-inverse">
+    <header class="clearfix">
         <div class="container">
-            <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
-            <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Our Professionals</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://example.com" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Procedures</a>
-                        <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
-                            <a class="dropdown-item" href="#">Mommy Makeover</a>
-                            <a class="dropdown-item" href="#">Face</a>
-                            <a class="dropdown-item" href="#">Breast</a>
-                            <a class="dropdown-item" href="#">Body</a>
-                            <a class="dropdown-item" href="#">Buttock Augmentation</a>
-                            <a class="dropdown-item" href="#">Male Plastic Surgery</a>
-                            <a class="dropdown-item" href="#">Lap-Band</a>
-                            <a class="dropdown-item" href="#">Orbera</a>
-                            <a class="dropdown-item" href="#">Med Spa</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Med Spa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Financing</a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav float-sm-right">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Travel Info</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <div class="container">
-        <h3>APPOINTMENTS</h3>
-        <p>APPOINTMENTS</p>
-    </div>
+            <?php if ( ! has_custom_logo() ) { ?>
+            <a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>"
+               title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+                <?php bloginfo( 'name' ); ?>
+            </a>
+            <?php } else {
+						the_custom_logo();
+            } ?><!-- end custom logo -->
+
+
+            <span class="header-call-to-action float-sm-right align-middle">
+                Call Today <a href="tel:1.305.985.6134">305-985-6134</a> To Schedule Complimentary Consultation
+            </span>
+
+        </div>
+    </header>
+
+    <!-- ******************* The Navbar Area ******************* -->
+    <div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">
+
+        <a class="skip-link screen-reader-text sr-only" href="#content"><?php _e( 'Skip to content',
+		'understrap' ); ?></a>
+
+        <nav class="navbar navbar-dark bg-inverse site-navigation" itemscope="itemscope"
+             itemtype="http://schema.org/SiteNavigationElement">
+
+            <div class="<?php echo esc_html( $container ); ?>" >
+
+                <div class="navbar-header">
+
+                    <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+                    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse"
+                            data-target=".exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false"
+                            aria-label="Toggle navigation"></button>
+
+                </div>
+
+                <div id="exCollapsingNavbar" class="collapse navbar-toggleable-xs exCollapsingNavbar clearfix">
+
+                    <!-- The WordPress Menu goes here -->
+                    <?php wp_nav_menu(
+                        array(
+                            'theme_location'  => 'primary',
+                            'container_class' => '',
+                            'container_id'    => '',
+                            'menu_class'      => 'nav navbar-nav float-sm-left',
+                            'fallback_cb'     => '',
+                            'menu_id'         => 'main-site-menu',
+                            'walker'          => new WP_Bootstrap_Navwalker(),
+                            )
+                    ); ?>
+
+                    <?php wp_nav_menu(
+                        array(
+                            'theme_location'  => 'alt',
+                            'container_class' => '',
+                            'container_id'    => '',
+                            'menu_class'      => 'nav navbar-nav float-sm-right',
+                            'fallback_cb'     => '',
+                            'menu_id'         => 'alt-site-menu',
+                            'walker'          => new WP_Bootstrap_Navwalker(),
+                            )
+                    ); ?>
+
+                </div>
+
+            </div> <!-- .container -->
+
+        </nav><!-- .site-navigation -->
+
+    </div><!-- .wrapper-navbar end -->
