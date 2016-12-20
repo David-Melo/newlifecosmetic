@@ -18,6 +18,7 @@ function theme_enqueue_styles() {
 
 function dm_theme_setup(){
 
+    add_theme_support( 'post-thumbnails' );
     register_nav_menu('alt','Alt Navigation');
     register_nav_menu('footer','Footer Navigation');
 

@@ -23,7 +23,13 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <style>
         .hero-foreground {
-            background: url('<?=get_template_directory_uri();?>/images/hero-foreground.png');
+            background: url('<?=get_template_directory_uri();?>/images/hero-foreground.png') center no-repeat;
+        }
+        .hero-foreground-bg {
+            background: url('<?=get_template_directory_uri();?>/images/bg.png');
+        }
+        .satisfaction-badge {
+            background: url('<?=get_template_directory_uri();?>/images/satisfaction-guaranteed.png');
         }
     </style>
 <?php wp_head(); ?>

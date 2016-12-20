@@ -28,39 +28,58 @@ if ( is_front_page() && is_home() ) {
 		<div class="hero-image-bg"></div>
 	</div>
 	<div class="hero-foreground"></div>
-	<div class="hero-foreground-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 offset-sm-6 text-sm-center">
-					<h1>New Life Plastic Surgery</h1>
-					<h2>Enhance More Than Your Appearance</h2>
-					<h3>Best Price In Town & #1 In Patient Safety</h3>
-					<div class="row">
-						<div class="col-sm-8 offset-sm-2">
-							<?php echo Caldera_Forms::render_form( 'CF5854c18e0b1b6' ) ; ?>
+		<div class="hero-foreground-bg"></div>
+		<div class="hero-foreground-text">
+			<div class="container hero-container">
+				<div class="row">
+					<div class="col-sm-6 offset-sm-6 text-xs-center">
+						<h1>New Life Plastic Surgery</h1>
+						<h2>Enhance More Than Your Appearance</h2>
+						<h3>Best Price In Town & #1 In Patient Safety</h3>
+						<div class="row">
+							<div class="col-sm-10 offset-sm-1">
+								<?php echo Caldera_Forms::render_form( 'CF5854c18e0b1b6' ) ; ?>
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-4">
+						<div class="hero-sub-text">
+							<div class="satisfaction-badge">
 
-						</div>
-						<div class="col-sm-8 text-sm-left">
-							<div class="hero-bullet">
-								<i class="fa fa-check" aria-hidden="true"></i> Located in The Heart of Miami
 							</div>
-							<div class="hero-bullet">
-								<i class="fa fa-check" aria-hidden="true"></i> Board Certified Surgeons
-							</div>
-							<div class="hero-bullet">
-								<i class="fa fa-check" aria-hidden="true"></i> Highly Trained and Knowledgeable Staff
+							<div class="hero-subtext-bullets text-sm-left">
+								<div class="hero-bullet">
+									<i class="fa fa-check fa-lg" aria-hidden="true"></i> Located in The Heart of Miami
+								</div>
+								<div class="hero-bullet">
+									<i class="fa fa-check fa-lg" aria-hidden="true"></i> Board Certified Surgeons
+								</div>
+								<div class="hero-bullet">
+									<i class="fa fa-check fa-lg" aria-hidden="true"></i> Highly Trained and Knowledgeable Staff
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div> 
 </div>
+
+<section class="procedures-container">
+    <div class="container">
+
+        <div class="procedures-home text-xs-center">
+
+			<div class="section-title">
+				<h1>Start your New year, with a New look</h1>
+				<h3>for as low as <strong class="brand-alternate">$26/a month</strong> at <strong class="brand-primary">New Life Plastic Surgery</strong></h3>
+			</div>
+
+            <?php echo do_shortcode("[pt_view id=7ba67e5clh]"); ?>
+
+
+        </div>
+
+    </div>
+</section>
 
 
 <?php get_footer(); ?>
