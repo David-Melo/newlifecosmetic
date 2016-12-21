@@ -24,3 +24,23 @@ function dm_theme_setup(){
 
 }
 add_action('init', 'dm_theme_setup');
+
+if( function_exists('acf_add_options_page') ) {
+
+	acf_add_options_page(array(
+	    'page_title' => 'Site Options',
+        'menu_title' => 'Site Options',
+        'menu_slug' =>  'site-options',
+	));
+
+}
+
+function my_acf_google_map_api( $api ){
+
+    $api['key'] = 'AIzaSyCbomR1i3Hm9T-azK2OIWRBf24E5LlIg38';
+
+    return $api;
+
+}
+
+add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');

@@ -11,6 +11,27 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
+<div class="entry-header">
+
+	<div class="hero-wrapper interior-hero">
+		<div class="hero-image">
+			<div class="hero-image-bg"></div>
+		</div>
+		<div class="hero-foreground-bg"></div>
+		<div class="hero-foreground-text">
+			<div class="container">
+				<div class="float-sm-right col-sm-4">
+					<button type="button" class="btn btn-lg btn-warning btn-block hero-cta-button" data-toggle="modal" data-target="#contactUsModal">
+						Get More Information
+					</button>
+				</div>
+				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+			</div>
+		</div>
+	</div>
+
+</div><!-- .entry-header -->
+
 <div class="wrapper" id="full-width-page-wrapper">
 
 	<div class="<?php echo esc_html( $container ); ?>" id="content">

@@ -69,11 +69,52 @@ if ( is_front_page() && is_home() ) {
         <div class="procedures-home text-xs-center">
 
 			<div class="section-title">
-				<h1>Start your New year, with a New look</h1>
-				<h3>for as low as <strong class="brand-alternate">$26/a month</strong> at <strong class="brand-primary">New Life Plastic Surgery</strong></h3>
+				<h1><?php the_field('heading'); ?></h1>
+				<h3><?php the_field('sub_heading'); ?></h3>
 			</div>
 
-            <?php echo do_shortcode("[pt_view id=7ba67e5clh]"); ?>
+			<?php if( have_rows('featured_procedures') ): ?>
+
+			<div class="row featured_procedures">
+
+				<?php while( have_rows('featured_procedures') ): the_row();
+
+					$image = get_sub_field('procedure_image');
+					$name = get_sub_field('procedure_name');
+					$link = get_sub_field('procedure_link');
+					$target = get_sub_field('target_window');
+					$hover = get_sub_field('hover_text');
+
+					?>
+
+				<div class="col-sm-2">
+
+					<?php if( $link ): ?>
+
+					<a class="featured-procedure" href="<?php echo $link; ?>" target="<?php echo $target; ?>">
+
+						<div class="rounded-circle">
+							<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
+							<?php if( $hover ): ?>
+								<div class="featured-procedure-overlay rounded-circle"><?php echo $hover; ?></div>
+							<?php endif; ?>
+						</div>
+
+						<?php if( $name ): ?>
+							<h3><?php echo $name; ?></h3>
+						<?php endif; ?>
+
+					</a>
+
+					<?php endif; ?>
+
+				</div>
+
+				<?php endwhile; ?>
+
+			</div>
+
+			<?php endif; ?>
 
 
         </div>
@@ -81,5 +122,115 @@ if ( is_front_page() && is_home() ) {
     </div>
 </section>
 
+<section class="about-us-container">
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-sm-5">
+				<?php echo do_shortcode( '[acf_gallery_slider acf_field="home_slides" show_caption="false"]' ); ?>
+			</div>
+
+			<div class="col-sm-7">
+				<h1><?php the_field('about_us_heading'); ?></h1>
+				<div class="home-about-us"><?php the_field('about_us'); ?></div>
+			</div>
+
+		</div>
+
+	</div>
+</section>
+
+<section class="additional-info-container">
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-sm-7">
+
+				<ul>
+
+					<h1><?php the_field('additional_info_title'); ?></h1>
+
+					<?php if( have_rows('additional_info_bullets') ): ?>
+
+					<ul class="additional-info-bullets">
+
+						<?php while( have_rows('additional_info_bullets') ): the_row();
+
+					$icon = get_sub_field('icon');
+					$text = get_sub_field('text');
+
+					?>
+
+						<li>
+							<i class="<?php echo $icon; ?>"></i> <?php echo $text; ?>
+						</li>
+
+						<?php endwhile; ?>
+
+					</ul>
+
+					<?php endif; ?>
+
+				</ul>
+
+			</div>
+
+			<div class="col-sm-5">
+
+				<div class="featured-video">
+					<div class="embed-container">
+						<?php the_field('featured_video'); ?>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</section>
+
+<section class="secondary-cta-container">
+	<div class="container">
+
+		<div class="float-sm-right col-sm-4">
+			<button type="button" class="btn btn-lg btn-warning btn-block hero-cta-button" data-toggle="modal" data-target="#contactUsModal">
+				Book Your Appointment
+			</button>
+		</div>
+		<h1 class="entry-title">Take The Next Step Towards <strong>A New Life</strong></h1>
+
+	</div>
+</section>
+
+<section class="testimonials-container">
+	<div class="container">
+
+		<div class="section-title text-sm-center">
+			<h1>Some of the Things Our Past Patients Have to Say</h1>
+		</div>
+
+		<?php echo do_shortcode("[pt_view id=9132195p12]"); ?>
+
+	</div>
+</section>
+
+<?php
+
+	$location = get_field('google_map','option');
+	$place = get_field('google_places_id','option');
+
+	if( !empty($location) ):
+
+?>
+
+<div class="acf-map">
+	<div class="marker" data-lat="<?php echo $location['lat']; ?>" data-place="<?php echo $place; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
+</div>
+
+<?php endif; ?>
 
 <?php get_footer(); ?>
+
