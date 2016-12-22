@@ -93,10 +93,10 @@ if ( is_front_page() && is_home() ) {
 
 					<a class="featured-procedure" href="<?php echo $link; ?>" target="<?php echo $target; ?>">
 
-						<div class="rounded-circle">
-							<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
+						<div class="featured-procedure-image">
+							<img class="rounded-circle" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
 							<?php if( $hover ): ?>
-								<div class="featured-procedure-overlay rounded-circle"><?php echo $hover; ?></div>
+							<div class="featured-procedure-overlay rounded-circle"><?php echo $hover; ?></div>
 							<?php endif; ?>
 						</div>
 
