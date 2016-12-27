@@ -94,7 +94,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 		height: 400px;
 	}
 
+	.acf-map-contact-us {
+		width: 100%;
+		height: 276px;
+	}
+
 	/* fixes potential theme css conflict */
+	.acf-map-contact-us img,
 	.acf-map img {
 		max-width: inherit !important;
 	}

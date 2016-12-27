@@ -20,12 +20,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="hero-foreground-bg"></div>
 		<div class="hero-foreground-text">
 			<div class="container">
-				<div class="float-sm-right col-sm-4">
+				<div class="col-sm-8 text-xs-center text-md-left">
+					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+				</div>
+				<div class="col-sm-4">
 					<button type="button" class="btn btn-lg btn-warning btn-block hero-cta-button" data-toggle="modal" data-target="#contactUsModal">
 						Get More Information
 					</button>
 				</div>
-				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 			</div>
 		</div>
 	</div>
@@ -37,8 +39,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="<?php echo esc_html( $container ); ?>" id="content">
 
 		<div class="row">
-
-			<div class="col-md-12 content-area" id="primary">
 
 				<main class="site-main" id="main" role="main">
 

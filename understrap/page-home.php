@@ -23,6 +23,8 @@ if ( is_front_page() && is_home() ) {
 }
 ?>
 
+
+
 <div class="hero-wrapper">
 	<div class="hero-image">
 		<div class="hero-image-bg"></div>
@@ -32,7 +34,7 @@ if ( is_front_page() && is_home() ) {
 		<div class="hero-foreground-text">
 			<div class="container hero-container">
 				<div class="row">
-					<div class="col-sm-6 offset-sm-6 text-xs-center">
+					<div class="col-sm-6 offset-sm-6 text-xs-center col-xs-12">
 						<h1>New Life Plastic Surgery</h1>
 						<h2>Enhance More Than Your Appearance</h2>
 						<h3>Best Price In Town & #1 In Patient Safety</h3>
@@ -87,7 +89,7 @@ if ( is_front_page() && is_home() ) {
 
 					?>
 
-				<div class="col-sm-2">
+				<div class="col-sm-2 col-xs-6">
 
 					<?php if( $link ): ?>
 
@@ -163,8 +165,9 @@ if ( is_front_page() && is_home() ) {
 
 					?>
 
-						<li>
-							<i class="<?php echo $icon; ?>"></i> <?php echo $text; ?>
+						<li class="clearfix">
+							<i class="<?php echo $icon; ?>"></i>
+							<span><?php echo $text; ?></span>
 						</li>
 
 						<?php endwhile; ?>
@@ -195,12 +198,17 @@ if ( is_front_page() && is_home() ) {
 <section class="secondary-cta-container">
 	<div class="container">
 
-		<div class="float-sm-right col-sm-4">
-			<button type="button" class="btn btn-lg btn-warning btn-block hero-cta-button" data-toggle="modal" data-target="#contactUsModal">
-				Book Your Appointment
-			</button>
+		<div class="row">
+			<div class="col-sm-7 text-xs-">
+				<h1 class="entry-title">Take The Next Step Towards <strong>A New Life</strong></h1>
+			</div>
+			<div class="col-sm-5">
+				<button type="button" class="btn btn-lg btn-warning btn-block hero-cta-button" data-toggle="modal" data-target="#contactUsModal">
+					Book Your Appointment
+				</button>
+			</div>
 		</div>
-		<h1 class="entry-title">Take The Next Step Towards <strong>A New Life</strong></h1>
+
 
 	</div>
 </section>

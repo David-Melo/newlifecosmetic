@@ -44,7 +44,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 		<div class="hero-foreground-bg"></div>
 		<div class="hero-foreground-text">
 			<div class="container">
-				<div class="hero-thumbnail float-sm-left rounded-circle">
+				<div class="hero-thumbnail float-xs-left rounded-circle">
 					<?php echo get_the_post_thumbnail( $post->ID, 'thumbnail', array( 'class' => 'rounded-circle' ) ); ?>
 				</div>
 				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>

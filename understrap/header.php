@@ -38,9 +38,44 @@
 
 <body <?php body_class(); ?>>
 
-<div class="hfeed site" id="page">
+    <header class="mobile clearfix hidden-md-up">
 
-    <header class="clearfix">
+        <?php
+
+        $custom_logo_id = get_theme_mod( 'custom_logo' );
+        $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+
+        ?>
+
+
+            <?php if ( ! has_custom_logo() ) { ?>
+            <a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>"
+               title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+                <?php bloginfo( 'name' ); ?>
+            </a>
+            <?php } else {
+
+            ?>
+
+                <a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>"
+                   title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+                    <img src="<?php echo $image[0]; ?>">
+                </a>
+
+            <?php
+
+            } ?><!-- end custom logo -->
+
+
+            <span class="header-call-to-action float-sm-right align-middle">
+                <h1>Call Today <a href="tel:1.305.985.6134">305-985-6134</a></h1>
+                <h3>To Schedule Complimentary Consultation</h3>
+            </span>
+
+
+    </header>
+
+    <header class="desktop clearfix hidden-sm-down">
         <div class="container">
 
             <?php if ( ! has_custom_logo() ) { ?>
@@ -59,6 +94,10 @@
 
         </div>
     </header>
+
+<div class="hfeed site" id="page">
+
+
 
     <!-- ******************* The Navbar Area ******************* -->
     <div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">

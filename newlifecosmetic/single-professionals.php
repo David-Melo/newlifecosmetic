@@ -19,7 +19,10 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
         <div class="hero-foreground-bg"></div>
         <div class="hero-foreground-text">
             <div class="container">
-                <div class="float-sm-right col-sm-4">
+                <div class="col-sm-8 text-xs-center text-md-left">
+                    <h1 class="entry-title"><?php the_field('full_profesional_name_&_title'); ?></h1>
+                </div>
+                <div class="col-sm-4">
                     <button type="button" class="btn btn-lg btn-warning btn-block hero-cta-button" data-toggle="modal" data-target="#contactUsModal">
                         Get More Information
                     </button>
@@ -69,7 +72,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
                 <div class="col-sm-9">
 
-                    <div class="section-title">
+                    <div class="section-title hidden-md-down">
                         <h1><?php the_field('full_profesional_name_&_title'); ?></h1>
                     </div>
 
