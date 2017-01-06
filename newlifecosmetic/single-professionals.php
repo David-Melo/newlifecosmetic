@@ -20,7 +20,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
         <div class="hero-foreground-text">
             <div class="container">
                 <div class="col-sm-8 text-xs-center text-md-left">
-                    <h1 class="entry-title"><?php the_field('full_profesional_name_&_title'); ?></h1>
+                    <h1 class="entry-title hidden-sm-up"><?php the_field('full_profesional_name_&_title'); ?></h1>
                 </div>
                 <div class="col-sm-4">
                     <button type="button" class="btn btn-lg btn-warning btn-block hero-cta-button" data-toggle="modal" data-target="#contactUsModal">

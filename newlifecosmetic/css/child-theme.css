@@ -7559,7 +7559,7 @@ body {
 
 .hero-image {
   height: 450px;
-  background-image: linear-gradient(270deg, #00616E, #00ABBF, #00616E);
+  background-image: linear-gradient(270deg, #00A1B7, #0ADDFB, #00A1B7);
   position: relative;
   background-size: 400% 400%;
   -webkit-animation: AnimationName 30s ease infinite;
@@ -8049,7 +8049,13 @@ section {
   .sidebar-cta-form {
     margin-top: 0; }
   .interior-hero .hero-foreground-text {
-    padding: 26px 0; } }
+    padding: 0; } }
+
+.travel-info-wrapper p.lead {
+  text-align: justify; }
+
+.travel-info-wrapper h1 {
+  color: #00ABBF; }
 
 /*
 @include media-breakpoint-up(sm) {  }

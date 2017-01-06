@@ -44,3 +44,15 @@ function my_acf_google_map_api( $api ){
 }
 
 add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
+
+
+add_action( 'my_text_action', 'my_test_function');
+
+function my_test_function( $data ) {
+
+    if ( isset( $data[ 'field_id_with_meta_value' ] ) && isset( $data[ 'field_with_post_id' ] ) && 0 < absint( $data[ 'field_with_post_id' ] ) ) {
+
+        update_post_meta( $data[ 'field_with_post_id' ], 'meta_key_name', strip_tags( $data[ 'field_id_with_meta_value' ] )  );
+    }
+
+}

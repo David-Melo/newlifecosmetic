@@ -99,6 +99,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 		height: 276px;
 	}
 
+	.acf-map-travel-info {
+		width: 100%;
+		height: 400px;
+	}
+
 	/* fixes potential theme css conflict */
 	.acf-map-contact-us img,
 	.acf-map img {
@@ -114,15 +119,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 
             var $marker = $el.find('.marker');
             var $place = $marker.attr('data-place');
+            var zoom = parseInt($marker.attr('data-zoom')) || 17;
             var latlng = new google.maps.LatLng( $marker.attr('data-lat'), $marker.attr('data-lng') );
 
             var args = {
-                zoom		: 17,
+                zoom		: zoom,
                 center		: latlng,
                 mapTypeId	: 'hybrid',
                 scrollwheel: false,
                 draggable: true
             };
+
+            console.log(args);
 
             var map = new google.maps.Map( $el[0], args);
 
