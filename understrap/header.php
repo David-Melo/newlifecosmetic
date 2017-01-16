@@ -78,6 +78,10 @@
     <header class="desktop clearfix hidden-sm-down">
         <div class="container">
 
+            <div class="language-container">
+                <a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl alt_flag us_flag"><img src="/wp-content/plugins/gtranslate/blank.png" height="24" width="24" alt="English" /></a><a href="#" onclick="doGTranslate('en|pt');return false;" title="Português" class="gflag nturl alt_flag br_flag"><img src="/wp-content/plugins/gtranslate/blank.png" height="24" width="24" alt="Português" /></a><a href="#" onclick="doGTranslate('en|es');return false;" title="Español" class="gflag nturl" style="background-position:-600px -200px;"><img src="/wp-content/plugins/gtranslate/blank.png" height="24" width="24" alt="Español" /></a>
+            </div>
+
             <?php if ( ! has_custom_logo() ) { ?>
             <a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>"
                title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
@@ -96,8 +100,6 @@
     </header>
 
 <div class="hfeed site" id="page">
-
-
 
     <!-- ******************* The Navbar Area ******************* -->
     <div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">
