@@ -103,7 +103,7 @@ body {
   text-transform: uppercase;
   text-shadow: 1px 0px 5px #212121;
   color: #FFF;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .hero-wrapper h2 {
@@ -373,7 +373,7 @@ section {
 }
 
 .secondary-cta-container h1 {
-  font-size: 29px;
+  font-size: 24px;
   text-transform: uppercase;
   color: #FFF;
   line-height: 55px;
@@ -688,4 +688,90 @@ text-transform: uppercase;
 @include media-breakpoint-up(sm) {  }
 @include media-breakpoint-up(md) {  }
 @include media-breakpoint-up(lg) {  }
-@include media-breakpoint-up(xl) {  }*/
+@include media-breakpoint-up(xl) {  }
+*/
+
+.desktop .container {
+  position: relative;
+}
+
+.desktop .language-container {
+  float: right;
+  position: absolute;
+  right: 0;
+}
+
+.envira-gallery-wrap .caption {
+  display: none !important;
+}
+
+.envirabox-title-float-main {
+  display: none !important;
+}
+
+
+
+.envira-gallery-item .envira-gallery-item-inner {
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+}
+
+/* Rotate all even images 2 degrees */
+.envira-gallery-6-columns .envira-gallery-item:nth-child(even) .envira-gallery-item-inner {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+}
+
+/* Don't rotate every third image, but offset its position */
+.envira-gallery-6-columns .envira-gallery-item:nth-child(3n) .envira-gallery-item-inner {
+  -webkit-transform: none;
+  -moz-transform: none;
+  position: relative;
+  top: -5px;
+}
+
+/* Rotate every fifth image by 5 degrees and offset it */
+.envira-gallery-6-columns .envira-gallery-item:nth-child(5n) .envira-gallery-item-inner {
+  -webkit-transform: none;
+  -moz-transform: none;
+  position: relative;
+  top: -5px;
+}
+
+/* Keep default rotate for every eighth, but offset it */
+.envira-gallery-6-columns .envira-gallery-item:nth-child(8n) .envira-gallery-item-inner {
+  position: relative;
+  top: 8px;
+  right: 5px;
+}
+
+/* Keep default rotate for every eleventh, but offset it */
+.envira-gallery-6-columns .envira-gallery-item:nth-child(11n) .envira-gallery-item-inner {
+  position: relative;
+  top: 3px;
+  left: -5px;
+}
+
+.envira-gallery-item-inner:hover {
+  -webkit-transform: scale(1.25) !important;
+  -moz-transform: scale(1.25) !important;
+  position: relative !important;
+  z-index: 5 !important;
+}
+
+.envira-gallery-item-inner {
+  -webkit-transition: -webkit-transform .5s linear !important;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.10) !important;
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.10) !important;
+}
+
+
+.envira-gallery-item-inner {
+  border: 1px solid #BBB !important;
+  margin: 15px !important;
+  padding: 10px 10px 32px !important
+}
+
+.envira-gallery-item-inner img {
+  border: 1px solid #444;
+}
