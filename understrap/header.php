@@ -26,6 +26,9 @@
         .hero-foreground {
             background: url('<?=get_template_directory_uri();?>/images/hero-foreground.png') center no-repeat;
         }
+        .hero-foreground-specials {
+            background: url('<?=get_template_directory_uri();?>/images/hero-foreground-specials-alt.png') center no-repeat;
+        }
         .hero-foreground-bg {
             background: url('<?=get_template_directory_uri();?>/images/bg.png');
         }

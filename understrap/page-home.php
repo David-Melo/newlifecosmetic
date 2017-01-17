@@ -195,6 +195,32 @@ if ( is_front_page() && is_home() ) {
 	</div>
 </section>
 
+<section class="certifications-container">
+	<div class="container">
+
+		<div class="section-title text-sm-center">
+			<h1>Our Certifications</h1>
+		</div>
+
+		<div class="row">
+
+			<div class="col-sm-4">
+				<img class="img-fluid" src="<?=get_template_directory_uri();?>/images/american-board-of-cosmetic-surgery.jpg">
+			</div>
+
+			<div class="col-sm-4">
+				<img class="img-fluid" src="<?=get_template_directory_uri();?>/images/american-board-of-plastic-surgery.jpg">
+			</div>
+
+			<div class="col-sm-4">
+				<img class="img-fluid" src="<?=get_template_directory_uri();?>/images/america-society-of-plastic-surgeons.jpg">
+			</div>
+
+		</div>
+
+	</div>
+</section>
+
 <section class="secondary-cta-container">
 	<div class="container">
 

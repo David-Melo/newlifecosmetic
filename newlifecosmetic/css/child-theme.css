@@ -7602,6 +7602,14 @@ body {
   right: 0;
   bottom: 0; }
 
+.hero-foreground-specials {
+  height: 450px;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  right: 0;
+  bottom: 0; }
+
 .hero-foreground-bg {
   position: absolute;
   top: 0;
@@ -7864,6 +7872,11 @@ section {
 
 .testimonials-container {
   padding-bottom: 0; }
+
+.certifications-container h1 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: bold; }
 
 .testimonials-container h1 {
   margin-bottom: 0;

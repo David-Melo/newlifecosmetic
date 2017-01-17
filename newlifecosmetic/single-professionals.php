@@ -139,6 +139,20 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                     </div>
                     <?php endif; ?>
 
+                    <?php if( have_rows('medical_positions') ): ?>
+                    <div class="card">
+                        <div class="card-block">
+                            <h4 class="card-title brand-primary">Medical Positions</h4>
+
+                            <?php while( have_rows('medical_positions') ): the_row();?>
+                            <?php $image = get_sub_field('item_name');?>
+                            <p class="card-text"><?php echo $image ?></p>
+                            <?php endwhile; ?>
+
+                        </div>
+                    </div>
+                    <?php endif; ?>
+
                 </div>
 
             </div>
