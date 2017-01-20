@@ -35,6 +35,12 @@
         .satisfaction-badge {
             background: url('<?=get_template_directory_uri();?>/images/satisfaction-guaranteed.png');
         }
+        .ribbon-right {
+            background: url('<?=get_template_directory_uri();?>/images/specials-banner-right.png');
+        }
+        .ribbon-left {
+            background: url('<?=get_template_directory_uri();?>/images/specials-banner-left.png');
+        }
     </style>
 <?php wp_head(); ?>
 </head>

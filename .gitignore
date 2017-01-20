@@ -8,6 +8,8 @@ bin-release/
 # Other files and folders
 .settings/
 
+.idea/workspace.xml
+
 # Executables
 *.swf
 *.air
