@@ -23,6 +23,27 @@ if ( is_front_page() && is_home() ) {
 }
 ?>
 
+<div class="banner-wrapper">
+
+	<div class="container">
+		<a href="/specials" title="Limited Time Specials">
+			<div class="ribbon-wrapper">
+				<div class="ribbon-left hidden-sm-down"></div>
+				<div class="ribbon-right hidden-sm-down"></div>
+				<div class="ribbon">
+					<div class="ribbon-stitches-top"></div>
+					<strong class="ribbon-content">
+						<h1>CLICK TO VIEW OUR LIMITED TIME SPECIALS</h1>
+						<h2>Brazilian Butt Lift, Breast Augmentation, Liposuction & More</h2>
+					</strong>
+					<div class="ribbon-stitches-bottom"></div>
+				</div>
+			</div>
+		</a>
+	</div>
+
+</div>
+
 <div class="hero-wrapper">
 	<div class="hero-image">
 		<div class="hero-image-bg"></div>
@@ -63,28 +84,7 @@ if ( is_front_page() && is_home() ) {
 		</div>
 </div>
 
-<div class="banner-wrapper">
-
-	<div class="container">
-		<a href="/specials" title="Limited Time Specials">
-			<div class="ribbon-wrapper">
-				<div class="ribbon-left hidden-sm-down"></div>
-				<div class="ribbon-right hidden-sm-down"></div>
-				<div class="ribbon">
-					<div class="ribbon-stitches-top"></div>
-					<strong class="ribbon-content">
-						<h1>CLICK TO VIEW OUR LIMITED TIME SPECIALS</h1>
-						<h2>Brazilian Butt Lift, Breast Augmentation, Liposuction & More</h2>
-					</strong>
-					<div class="ribbon-stitches-bottom"></div>
-				</div>
-			</div>
-		</a>
-	</div>
-
-</div>
-
-<section class="procedures-container" style="padding-top: 15px">
+<section class="procedures-container">
     <div class="container">
 
         <div class="procedures-home text-xs-center">
