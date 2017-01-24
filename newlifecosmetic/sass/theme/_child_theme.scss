@@ -522,18 +522,7 @@ text-transform: uppercase;
   font-size: 13px;
 }
 
-.gallery-preview {
-  border: 1px solid #bbb;
-  padding: 4px;
-  box-shadow: 0 1px 3px #ccc;
-  margin-bottom: 30px;
-}
 
-.post-29 img.pt-cv-thumbnail {
-  border: 1px solid #bbb;
-  padding: 4px;
-  box-shadow: 0 1px 3px #ccc;
-}
 
 .desktop {
 
@@ -727,29 +716,40 @@ text-transform: uppercase;
   right: 0;
 }
 
-.envira-gallery-wrap .caption {
+.post-29  .gallery-preview {
+  border: 1px solid #bbb;
+  padding: 4px;
+  box-shadow: 0 1px 3px #ccc;
+  margin-bottom: 30px;
+}
+
+.post-29 img.pt-cv-thumbnail {
+  border: 1px solid #bbb;
+  padding: 4px;
+  box-shadow: 0 1px 3px #ccc;
+}
+
+.post-29 .envira-gallery-wrap .caption {
   display: none !important;
 }
 
-.envirabox-title-float-main {
+.post-29 .envirabox-title-float-main {
   display: none !important;
 }
 
-
-
-.envira-gallery-item .envira-gallery-item-inner {
+.post-29 .envira-gallery-item .envira-gallery-item-inner {
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
 }
 
 /* Rotate all even images 2 degrees */
-.envira-gallery-6-columns .envira-gallery-item:nth-child(even) .envira-gallery-item-inner {
+.post-29 .envira-gallery-6-columns .envira-gallery-item:nth-child(even) .envira-gallery-item-inner {
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
 }
 
 /* Don't rotate every third image, but offset its position */
-.envira-gallery-6-columns .envira-gallery-item:nth-child(3n) .envira-gallery-item-inner {
+.post-29 .envira-gallery-6-columns .envira-gallery-item:nth-child(3n) .envira-gallery-item-inner {
   -webkit-transform: none;
   -moz-transform: none;
   position: relative;
@@ -757,7 +757,7 @@ text-transform: uppercase;
 }
 
 /* Rotate every fifth image by 5 degrees and offset it */
-.envira-gallery-6-columns .envira-gallery-item:nth-child(5n) .envira-gallery-item-inner {
+.post-29 .envira-gallery-6-columns .envira-gallery-item:nth-child(5n) .envira-gallery-item-inner {
   -webkit-transform: none;
   -moz-transform: none;
   position: relative;
@@ -765,39 +765,39 @@ text-transform: uppercase;
 }
 
 /* Keep default rotate for every eighth, but offset it */
-.envira-gallery-6-columns .envira-gallery-item:nth-child(8n) .envira-gallery-item-inner {
+.post-29 .envira-gallery-6-columns .envira-gallery-item:nth-child(8n) .envira-gallery-item-inner {
   position: relative;
   top: 8px;
   right: 5px;
 }
 
 /* Keep default rotate for every eleventh, but offset it */
-.envira-gallery-6-columns .envira-gallery-item:nth-child(11n) .envira-gallery-item-inner {
+.post-29 .envira-gallery-6-columns .envira-gallery-item:nth-child(11n) .envira-gallery-item-inner {
   position: relative;
   top: 3px;
   left: -5px;
 }
 
-.envira-gallery-item-inner:hover {
+.post-29 .envira-gallery-item-inner:hover {
   -webkit-transform: scale(1.25) !important;
   -moz-transform: scale(1.25) !important;
   position: relative !important;
   z-index: 5 !important;
 }
 
-.envira-gallery-item-inner {
+.post-29 .envira-gallery-item-inner {
   -webkit-transition: -webkit-transform .5s linear !important;
   -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.10) !important;
   -moz-box-shadow: 0 3px 6px rgba(0,0,0,.10) !important;
 }
 
-.envira-gallery-item-inner {
+.post-29 .envira-gallery-item-inner {
   border: 1px solid #BBB !important;
   margin: 15px !important;
   padding: 10px 10px 32px !important
 }
 
-.envira-gallery-item-inner img {
+.post-29 .envira-gallery-item-inner img {
   border: 1px solid #444;
 }
 

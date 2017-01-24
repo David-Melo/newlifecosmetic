@@ -33,8 +33,8 @@ if ( is_front_page() && is_home() ) {
 				<div class="ribbon">
 					<div class="ribbon-stitches-top"></div>
 					<strong class="ribbon-content">
-						<h1>CLICK TO VIEW OUR LIMITED TIME SPECIALS</h1>
-						<h2>Brazilian Butt Lift, Breast Augmentation, Liposuction & More</h2>
+						<h1><span>CLICK TO VIEW OUR LIMITED TIME SPECIALS</span></h1>
+						<h2><span>Brazilian Butt Lift, Breast Augmentation, Liposuction & More</span></h2>
 					</strong>
 					<div class="ribbon-stitches-bottom"></div>
 				</div>
@@ -68,13 +68,13 @@ if ( is_front_page() && is_home() ) {
 							</div>
 							<div class="hero-subtext-bullets text-sm-left">
 								<div class="hero-bullet">
-									<i class="fa fa-check fa-lg" aria-hidden="true"></i> Located in The Heart of Miami
+									<i class="fa fa-check fa-lg" aria-hidden="true"></i> <span>Located in The Heart of Miami</span>
 								</div>
 								<div class="hero-bullet">
-									<i class="fa fa-check fa-lg" aria-hidden="true"></i> Board Certified Surgeons
+									<i class="fa fa-check fa-lg" aria-hidden="true"></i> <span>Board Certified Surgeons</span>
 								</div>
 								<div class="hero-bullet">
-									<i class="fa fa-check fa-lg" aria-hidden="true"></i> Highly Trained and Knowledgeable Staff
+									<i class="fa fa-check fa-lg" aria-hidden="true"></i> <span>Highly Trained and Knowledgeable Staff</span>
 								</div>
 							</div>
 						</div>

@@ -30,7 +30,7 @@
             background: url('<?=get_template_directory_uri();?>/images/hero-foreground-specials-alt.png') center no-repeat;
         }
         .hero-foreground-bg {
-            background: url('<?=get_template_directory_uri();?>/images/bg.png');
+            /*background: url('<?=get_template_directory_uri();?>/images/bg.png');*/
         }
         .satisfaction-badge {
             background: url('<?=get_template_directory_uri();?>/images/satisfaction-guaranteed.png');
@@ -77,8 +77,8 @@
 
 
             <span class="header-call-to-action float-sm-right align-middle">
-                <h1>Call Today <a href="tel:1.305.985.6134">305-985-6134</a></h1>
-                <h3>To Schedule Complimentary Consultation</h3>
+                <h1><span>Call Today</span> <a href="tel:1.305.985.6134">305-985-6134</a></h1>
+                <h3><span>To Schedule Complimentary Consultation</span></h3>
             </span>
 
 
@@ -88,7 +88,8 @@
         <div class="container">
 
             <div class="language-container">
-                <a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl alt_flag us_flag"><img src="/wp-content/plugins/gtranslate/blank.png" height="24" width="24" alt="English" /></a><a href="#" onclick="doGTranslate('en|pt');return false;" title="Português" class="gflag nturl alt_flag br_flag"><img src="/wp-content/plugins/gtranslate/blank.png" height="24" width="24" alt="Português" /></a><a href="#" onclick="doGTranslate('en|es');return false;" title="Español" class="gflag nturl" style="background-position:-600px -200px;"><img src="/wp-content/plugins/gtranslate/blank.png" height="24" width="24" alt="Español" /></a>
+                <div id="weglot_here"></div>
+                <!--<a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl alt_flag us_flag"><img src="/wp-content/plugins/gtranslate/blank.png" height="24" width="24" alt="English" /></a><a href="#" onclick="doGTranslate('en|pt');return false;" title="Português" class="gflag nturl alt_flag br_flag"><img src="/wp-content/plugins/gtranslate/blank.png" height="24" width="24" alt="Português" /></a><a href="#" onclick="doGTranslate('en|es');return false;" title="Español" class="gflag nturl" style="background-position:-600px -200px;"><img src="/wp-content/plugins/gtranslate/blank.png" height="24" width="24" alt="Español" /></a>-->
             </div>
 
             <?php if ( ! has_custom_logo() ) { ?>
@@ -102,7 +103,7 @@
 
 
             <span class="header-call-to-action float-sm-right align-middle">
-                Call Today <a href="tel:1.305.985.6134">305-985-6134</a> To Schedule Complimentary Consultation
+                <span>Call Today</span> <a href="tel:1.305.985.6134">305-985-6134</a> <span>To Schedule Complimentary Consultation</span>
             </span>
 
         </div>
