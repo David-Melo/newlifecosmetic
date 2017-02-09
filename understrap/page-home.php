@@ -50,6 +50,17 @@ if ( is_front_page() && is_home() ) {
 	</div>
 	<div class="hero-foreground"></div>
 		<div class="hero-foreground-bg"></div>
+
+		<div class="hero-foreground-text hero-slider">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<?php echo do_shortcode( '[acf_gallery_slider acf_field="header_slides" show_caption="true" autoplay_speed="3000" speed="1000"]' ); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="hero-foreground-text">
 			<div class="container hero-container">
 				<div class="row">

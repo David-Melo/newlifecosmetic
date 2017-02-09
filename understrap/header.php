@@ -24,7 +24,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <style>
         .hero-foreground {
-            background: url('<?=get_template_directory_uri();?>/images/hero-foreground.png') center no-repeat;
+            /*background: url('<?=get_template_directory_uri();?>/images/hero-foreground.png') center no-repeat;*/
         }
         .hero-foreground-specials {
             background: url('<?=get_template_directory_uri();?>/images/hero-foreground-specials-alt.png') center no-repeat;
