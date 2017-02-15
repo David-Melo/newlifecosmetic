@@ -160,7 +160,11 @@ if ( is_front_page() && is_home() ) {
 		<div class="row">
 
 			<div class="col-sm-5">
-				<?php echo do_shortcode( '[acf_gallery_slider acf_field="home_slides" show_caption="false"]' ); ?>
+				<div class="featured-video">
+					<div class="embed-container">
+						<?php the_field('about_us_video'); ?>
+					</div>
+				</div>
 			</div>
 
 			<div class="col-sm-7">
