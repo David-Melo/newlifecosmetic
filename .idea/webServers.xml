@@ -2,8 +2,16 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="c4b97a8a-14ce-44f0-b8e7-3bb6edd76667" name="newlifecosmetic" url="http://d88.ee5.myftpupload.com">
+      <webServer id="c4b97a8a-14ce-44f0-b8e7-3bb6edd76667" name="newlifecosmetic-staging" url="http://d88.ee5.myftpupload.com">
         <fileTransfer host="d88.ee5.myftpupload.com" port="22" rootFolder="/home/d88e3761163150/html/wp-content/themes" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="75519538-e6eb-434c-91a4-f57602d9c225" name="newlifecosmetic-production" url="http://http://www.newlifecosmetic.com/">
+        <fileTransfer host="www.newlifecosmetic.com" port="22" rootFolder="/home/newl3761150504/html/wp-content/themes" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
